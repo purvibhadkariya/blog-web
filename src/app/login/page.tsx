@@ -145,7 +145,7 @@ const LoginPage = () => {
 				</div>
 
 				
-                <p className={styles.new_user} onClick={ () => setAuthType((auth:string)=> auth === AUTH_TYPE.LOGIN ? AUTH_TYPE.SIGNUP : AUTH_TYPE.LOGIN)} >
+                	<p className={styles.new_user} onClick={ () => setAuthType((auth:string)=> auth === AUTH_TYPE.LOGIN ? AUTH_TYPE.SIGNUP : AUTH_TYPE.LOGIN)} >
 					{authType === AUTH_TYPE.SIGNUP ? 'Already Registered?' : 'New user?'}
 				</p>
 			</div>
